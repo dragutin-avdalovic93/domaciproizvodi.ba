@@ -1,0 +1,113 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 85vh;
+}
+
+.header {
+    background-color: #89ba87;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.header-title {
+    font-size: 24px;
+    margin-right: 10px;
+    color: #fff;
+}
+
+.header-flag {
+    height: 40px;
+    width: auto;
+    margin-left: auto;
+}
+
+.main-section {
+    background-color: #f9f9f9;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-section-content {
+    margin: 0 auto;
+}
+
+.main-section-heading {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #265b24;
+}
+
+.main-section-text {
+    font-size: 16px;
+    margin-bottom: 10px;
+    line-height: 1.5;
+    color: #265b24;
+}
+
+.main-section-link {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.map-container {
+    flex: 8;
+    background-color: #c3e6c6;
+}
+
+.footer {
+    background-color: #89ba87;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.footer-text {
+    margin: 0;
+    color: #fff;
+}
+
+.footer-text em {
+    font-style: italic;
+}
+
+/* Additional styling for the map */
+#map {
+    height: 100%;
+    width: 100%;
+}
+
+/* Responsiveness */
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .header-flag {
+        margin-top: 10px;
+        margin-left: 0;
+    }
+
+    .main-section-content {
+        max-width: 600px;
+    }
+
+    .main-section-text {
+        font-size: 12px;
+        margin-bottom: 10px;
+        line-height: 1.5;
+        color: #265b24;
+    }
+
+    .footer {
+        font-size: 12px;
+        line-height: 1.5;
+    }
+}
