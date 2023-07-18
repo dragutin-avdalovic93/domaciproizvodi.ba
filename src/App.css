@@ -10,17 +10,8 @@
   flex-direction: column;
 }
 
-.header {
-  height: 5vh;
-}
-
 .main-content {
   flex: 1;
-  height: 80vh;
   overflow-y: auto;
-}
-
-.footer {
-  height: 10vh;
 }
 
